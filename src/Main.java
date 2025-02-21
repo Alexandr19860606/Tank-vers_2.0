@@ -8,11 +8,11 @@ public class Main {
         Tank anywareTank = new Tank(10, 10);
 // В (20;30) с fuel = 200
         Tank customTank = new Tank(20, 30, 200);
-        justTank.goForward(200);
+        justTank.goForward(2000);
         justTank.printPosition();
-        anywareTank.goBackward(-200);
+        anywareTank.goBackward(-2000);
         anywareTank.printPosition();
-        customTank.goForward(201);
+        customTank.goForward(2010);
         customTank.printPosition();
 
     }
